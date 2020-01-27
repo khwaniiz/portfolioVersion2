@@ -1,0 +1,251 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400|Montserrat:100,300,300i,400,500,700,900&display=swap" rel="stylesheet">
+    
+    <!-- Boostrap
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+
+    <!-- Animated CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- CSS -->
+    
+    <link rel="stylesheet" href="outsources/css/grid.css">
+    <link rel="stylesheet" href="outsources/css/normalize.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+
+    <!-- ionicons -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f18235f14d.js" crossorigin="anonymous"></script>
+    
+    <title>Chalermkhwan.com</title>
+
+    <!-- Favicons -->
+
+    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+<link rel="manifest" href="resources/favicons/site.webmanifest">
+<link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="resources/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <img src="resources/img/logo-white.png" alt="logo" class="logo">
+                <img src="resources/img/logo.png" alt="logo" class="logo-black">
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="mailto:chalermkhwan@gmail.com?Subject=Hello%20again">Contact</a></li>
+                    </ul>   
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+            </div>
+        </nav>
+
+        <div class="main-header-box">
+            <div class="main-header-title">
+                <h1>Chalermkhwan Nasritha</h1>
+                <h2>Web Developer</h2>
+            </div>
+            <div class="main-header-button">
+                <a class="btn btn-full js--scroll-to-about" href="#">Get to know me</a>
+                <a class="btn btn-blank js--scroll-to-project" href="#">See my projects</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-about js--section-about" id="about">
+        <div class="row">
+            <h3>About</h3>
+        </div>
+        <div class="row">
+        <div class="about__container">
+            <div class="about__column">
+                <img src="/resources/img/profile.jpg" alt="about-photo" class="about__photo">
+            </div>
+            <div class="about__column">
+                <p class="about__about">I'm a web developer with a passion for designing, coding and implementing websites.
+                    I'm self taught and always looking for opportunity to learn new things to add to my skill set.<br>
+                </p>
+                <p class="about__cooking">
+                    When I'm away from the computer I'm usually in the kitchen making something tasty. I created a <a href="http://keenokthai.com/" target="_blank"><span><em>Thai pop up dinner series</em></span></a> 
+                    along with my husband in which we bring to life unique regional dishes from Thailand.
+                </p> 
+
+                <div class="download-cv">
+                    <a class="btn btn-full btn-about" href="resources/img/ChalermkhwanResumeNEW.pdf" download>Resume <i class="fas fa-download"></i></a>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="section-project js--section-project" id="project">
+        <div class="row">
+            <h3>Projects</h3>
+        </div>
+        <!-- https://webdesign.tutsplus.com/tutorials/solving-problems-with-css-grid-and-flexbox-the-card-ui--cms-27468 -->
+        <div class="band">
+ 
+        <!-- grid item, containing a card -->
+        <div class="item-1">
+            <a href="https://shielded-ravine-94832.herokuapp.com" target="_blank" class="card">
+                <div class="thumb" style="background-image: url(/resources/img/keenokPj2.png);"></div>
+                <article>
+                  <h1>KeenokThai</h1>
+                  <p>Creating a web application Thai pop up dinner.</p>
+                  <span><i class="fab fa-html5"></i><i class="fab fa-js"></i><i class="fab fa-css3-alt"></i><i class="fab fa-bootstrap"></i></span>
+                </article>
+              </a>
+        </div> 
+             
+            <!-- grid item, containing a card -->
+            <div class="item-2">
+                <a href="https://secret-anchorage-79305.herokuapp.com" target="_blank" class="card">
+                    <div class="thumb" style="background-image: url(/resources/img/ToDo2.png);"></div>
+                    <article>
+                      <h1>To Do List</h1>
+                      <p>Integrating MongoDB with Node Application.</p>
+                      <span><i class="fab fa-node-js"></i><i class="fas fa-database"></i></span>
+                    </article>
+                  </a>
+            </div>
+             
+            <!-- grid item, containing a card -->
+            <div class="item-3">
+              <a href="https://thawing-river-51831.herokuapp.com" target="_blank" class="card">
+                <div class="thumb" style="background-image: url(/resources/img/mailList2.png);"></div>
+                <article>
+                  <h1>Mailling List</h1>
+                  <p>Making a mailling list by connecting to Mailchimp's API.</p>
+                  <span><i class="fab fa-node-js"></i><i class="fab fa-mailchimp"></i></span>
+                </article>
+              </a>
+            </div>
+
+            <div class="item-4">
+              <a href="https://fast-headland-64597.herokuapp.com" target="_blank" class="card">
+                <div class="thumb" style="background-image: url(/resources/img/simon.png);"></div>
+                <article>
+                  <h1>Simon Game</h1>
+                  <p>Using jquery to create an easy game.</p>
+                  
+                </article>
+              </a>
+            </div>
+
+            <div class="item-5">
+              <a href="https://mysterious-river-93872.herokuapp.com" target="_blank" class="card">
+                <div class="thumb" style="background-image: url(/resources/img/t2.png);"></div>
+                <article>
+                  <h1>API</h1>
+                  <p>Connecting an API with JavaScript.</p>
+                  <span><i class="fab fa-js"></i></span>
+                </article>
+              </a>
+            </div>
+
+            <div class="item-6">
+              <a href="http://www.chalermkhwan.com" target="_blank" class="card">
+                <div class="thumb" style="background-image: url(/resources/img/portfolio.png);"></div>
+                <article>
+                  <h1>My Portfolio</h1>
+                  <p>Responsive design using grid and flexbox.</p>
+                  <span><i class="fab fa-html5"></i><i class="fab fa-js"></i><i class="fab fa-css3-alt"></i></span>
+                </article>
+              </a>
+            </div>
+             
+          </div>
+    </section>
+
+    <!-- <section class="section-form">
+        <div class="row">
+            <h3>Contact me</h3>
+        </div>
+        <div class="row">
+            <div class="form__container">
+                <form action="/action_page.php" >
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="email" name="email" placeholder="Your name..">
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="subject">Subject</label>
+                    </div>
+                    <div class="col-75">
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+              </div>
+            
+        </div>
+    </section> -->
+
+    <footer id="footer">
+        <div class="section-footer">
+        <!-- Footer menu -->
+        <section class="ft-menu">
+            <ul class="ft-menu-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="mailto:chalermkhwan@gmail.com?Subject=Hello%20again">Contact</a></li>
+            </ul>
+          </section>
+         
+          <!-- Footer Socials -->
+          <section class="ft-social">
+            <ul class="ft-social-list">
+                <li><a href="https://github.com/khwaniiz" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/chalermkhwan-nasritha" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="mailto:chalermkhwan@gmail.com?Subject=Hello%20again" target="_top"><i class="fas fa-envelope"></i></a></li> 
+                
+            </ul>
+          </section>
+        </div>
+    </footer>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="outsources/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/scripts.js"></script>
+    
+</body>
+</html>
